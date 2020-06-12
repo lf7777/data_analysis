@@ -1,0 +1,43 @@
+一. 线 性 回 归
+
+    找到一条线,该线是图中距离所有点最近的
+
+    y = wx + b    y是目标线的y轴,w是斜率,b是截距
+
+    y1 到线的 距离为 
+    
+        abs(y1 - (wx1 + b ))        绝对值距离叫做 第一范式 
+
+        (y1 - (wx1 + b)) **2        距离的平方叫做 第二范式
+
+
+
+二. 均 方 误 差 
+
+    MSE : Mean Squared Error
+
+    公 式 : MSE = ((y1-(wx1+b))**2+(y2-(wx2+b))**2+...(yn - (wxn + b)) **2)/n
+
+
+
+三. 均 方 根 误 差
+
+    RMSE : Root Mean Squared Error
+
+    公 式 : 根号下MSE
+
+
+
+四. sklearn
+
+    from sklearn import linear_model     导入 sklearn 包中 线性模块
+
+    clf = linear_mode.LinearRegression() 实例化线性回归类    
+
+    clf = linear_model.LinearRegression()
+
+    clf.fit(np.array(x).reshape(10,1),y) x轴参数需要10行1列的二维列表
+
+    clf.coef_        斜率 w
+
+    clf.intercept_   截距 b

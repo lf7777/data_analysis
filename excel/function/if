@@ -1,0 +1,35 @@
+一. if
+
+
+    格 式 :
+
+        1. 单条件
+
+            =if(条件,True,False)
+
+
+        2. 多条件
+
+            =if(条件,True,if(条件,True,False))
+
+
+        3. +
+
+           if(条件,True,False)+if(条件,True,False)
+
+
+    <1> iserror()
+
+        判断单元格是否是错误
+
+        if(iserror(D25/C35),0,D25/C35)
+
+
+    <2> and
+
+        if(and(a3='男',b3>60),True,False)
+
+
+    <3> or
+
+        if(or(条件1,条件2),True,False)

@@ -1,0 +1,9 @@
+一. 梯 度 下 降 法
+
+    数据量过大,不能使用线性回归法
+
+    梯度下降法(learning rate)
+
+        learning rate 增大会怎样
+
+        learning rate 减小会怎样
