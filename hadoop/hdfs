@@ -1,16 +1,16 @@
 一. HDFS : Hadoop Distributed file system 
 
 
-    分布式 文 件 系 统
+    分布式文件系统
 
 
 二. MapReduce 
 
    
-    分布式 运 算 变 成 框 架 
+    分布式运算编程框架 
 
 
 三. Yarn
 
 
-    分布式 资 源 调 度 平 台
+    分布式资源调度平台
