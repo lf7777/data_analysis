@@ -21,11 +21,12 @@
 
 
 
-二. jupyter-notebook
 
+二.随 笔 :
 
-    <1> 忽略警告信息
+    
+    <1> 定 性 分 析 与 定 量 分 析 的 区 别 :
 
-        import warnings
+        1.定性分析是根据性质进行分析。
 
-        warnings.filterwarnings('ignore')
+        2.定量分析是根据数据、数字、量化地分析。
